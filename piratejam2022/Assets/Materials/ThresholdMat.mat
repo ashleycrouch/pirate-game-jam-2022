@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: InversMat
-  m_Shader: {fileID: 4800000, guid: 6d60439c53d94634e8ce8674c7a40cf9, type: 3}
+  m_Name: ThresholdMat
+  m_Shader: {fileID: 4800000, guid: 80516935ad9a0be47aa8c1ba122d1ab6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -78,6 +78,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _BG: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FG: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
