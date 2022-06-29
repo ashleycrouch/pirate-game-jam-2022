@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorRamp:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6a2d886598627f845bc7e22ea51f46f8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dither:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2df264490f2917a488dc72f696b300d0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 98d3067be73a400459207ba04cbfd204, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -88,14 +88,14 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Threshold: 0.1
-    - _Tiling: 192
+    - _Tiling: 500
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BL: {r: -0.79523, g: -0.30315396, b: 0.5250781, a: 0}
-    - _BR: {r: 0.79523, g: -0.30315396, b: 0.5250781, a: 0}
+    - _BL: {r: -0.9265569, g: 0.23325107, b: 0.295104, a: 0}
+    - _BR: {r: 0.6730999, g: 0.23325104, b: 0.7018052, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TL: {r: -0.79523, g: 0.30315396, b: 0.5250781, a: 0}
-    - _TR: {r: 0.79523, g: 0.30315396, b: 0.5250781, a: 0}
+    - _TL: {r: -0.8134187, g: 0.56203294, b: -0.14989637, a: 0}
+    - _TR: {r: 0.78623796, g: 0.56203294, b: 0.25680485, a: 0}
   m_BuildTextureStacks: []
