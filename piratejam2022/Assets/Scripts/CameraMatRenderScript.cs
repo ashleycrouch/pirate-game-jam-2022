@@ -31,6 +31,12 @@ public class DitheringCameraScript : MonoBehaviour
             corners[i] = transform.TransformVector(corners[i]);
             corners[i].Normalize();
         }
+
+        ditherMat.SetVector("_BL", corners[0]);
+        ditherMat.SetVector("_TL", corners[1]);
+        ditherMat.SetVector("_TR", corners[2]);
+        ditherMat.SetVector("_BR", corners[3]);
+
         Graphics.Blit(src, large, ditherMat);
         Graphics.Blit(large, main, thresholdMat);
         //Graphics.Blit(src, normal, mat);
